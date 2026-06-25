@@ -8,12 +8,15 @@ import (
 // "strconv"
 
 func HexToDecimal(code string) (int64, error) {
+	// // Solved with strconv package
 	// ans, err := strconv.ParseInt(code, 16, 10)
 	// if err != nil {
 	// 	return 0, fmt.Errorf("error")
 	// }
 	// return ans, err
 	
+
+	// solved without strconv package
 	var maxVal int64 = 255
 	var val int64
 
