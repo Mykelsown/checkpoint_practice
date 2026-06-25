@@ -19,10 +19,10 @@ func OctalToDecimal(oct string) (int, error) {
 			'6': 6,
 			'7': 7,
 		}
-		if oct[i] < 0 && oct[i] > 0 {
+		if oct[i] - 48 > 7 {
 			return 0, fmt.Errorf("error")
 		}
-		conv = octVal[oct[i]] * int(math.Pow(16, float64(len(oct)-i-1)))
+		conv += octVal[oct[i]] * int(math.Pow(8, float64(len(oct)-i-1)))
 	}
 	return conv, nil
 }
