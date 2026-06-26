@@ -33,4 +33,9 @@ func main() {
 	fmt.Println(practice.ToUppercase("hello"))
 	fmt.Println(practice.ToUppercase("Go Lang"))
 	fmt.Println(practice.ToUppercase("123!abc"))
+	println("===========ToLowerCase============")
+	fmt.Println(practice.ToLowercase("HELLO"))
+	fmt.Println(practice.ToLowercase("Go Lang"))
+	fmt.Println(practice.ToLowercase("123!aBc"))
+	
 }
