@@ -13,7 +13,7 @@ func CapitalizeN(words []string, n int) []string {
 			words[i] = fmt.Sprintf("%q", upperCase)
 			continue
 		}
-		words[i] = fmt.Sprintf("%q", words[i])
+		words[i] = fmt.Sprintf("%q", ToLowercase(words[i]))
 	}
 
 	return words

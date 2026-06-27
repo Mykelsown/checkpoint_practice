@@ -38,7 +38,7 @@ func main() {
 	fmt.Println(practice.ToLowercase("Go Lang"))
 	fmt.Println(practice.ToLowercase("123!aBc"))
 
-	fmt.Println(practice.Capitalize("last Man Standing"))
+	fmt.Println(practice.Capitalize("last maN StaNDing"))
 
 
 fmt.Println(practice.FixPunctuation("Hello  ,world !"))       
