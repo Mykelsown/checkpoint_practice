@@ -40,8 +40,11 @@ func main() {
 
 	fmt.Println(practice.Capitalize("last maN StaNDing"))
 
+	// // SECTION 3: Punctuation & Spacing
+	fmt.Println(practice.FixPunctuation("Hello  ,world !"))       
+	fmt.Println(practice.FixPunctuation("Wait . . .   Come back ."))      
+	fmt.Println(practice.FixPunctuation("Yes ;no ; maybe!  ?"))  
 
-fmt.Println(practice.FixPunctuation("Hello  ,world !"))       
-fmt.Println(practice.FixPunctuation("Wait . . .   Come back ."))      
-fmt.Println(practice.FixPunctuation("Yes ;no ; maybe!  ?"))  
+	fmt.Println(practice.FixQuotes("She is ' awesome '"))
+	fmt.Println(practice.FixQuotes("As he said : ' I will return '"))
 }
